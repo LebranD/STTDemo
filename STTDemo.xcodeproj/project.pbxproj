@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		556A57661C826D289B88B09F /* Pods_STTDemo_STTDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B1EBA0FA81D10213F440DF /* Pods_STTDemo_STTDemoUITests.framework */; };
 		9952DA4829E92C580011CFF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9952DA4729E92C580011CFF9 /* AppDelegate.swift */; };
 		9952DA4A29E92C580011CFF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9952DA4929E92C580011CFF9 /* SceneDelegate.swift */; };
 		9952DA4C29E92C580011CFF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9952DA4B29E92C580011CFF9 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		9952DA5F29E92C590011CFF9 /* STTDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9952DA5E29E92C590011CFF9 /* STTDemoTests.swift */; };
 		9952DA6929E92C590011CFF9 /* STTDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9952DA6829E92C590011CFF9 /* STTDemoUITests.swift */; };
 		9952DA6B29E92C590011CFF9 /* STTDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9952DA6A29E92C590011CFF9 /* STTDemoUITestsLaunchTests.swift */; };
+		C4323C2B6815478E7679620D /* Pods_STTDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E8B4970FF9A9706D520D8F /* Pods_STTDemoTests.framework */; };
+		EDB617C505345D95E78FD968 /* Pods_STTDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C4EC4576EA80F04201304A /* Pods_STTDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33B1EBA0FA81D10213F440DF /* Pods_STTDemo_STTDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STTDemo_STTDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5D0FDA3FA3AC04C1C3D1F1 /* Pods-STTDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STTDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-STTDemoTests/Pods-STTDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C18A43301ED0EE2D208AE63 /* Pods-STTDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STTDemo.debug.xcconfig"; path = "Target Support Files/Pods-STTDemo/Pods-STTDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6DDC7D57FB7078F2B5111E56 /* Pods-STTDemo-STTDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STTDemo-STTDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-STTDemo-STTDemoUITests/Pods-STTDemo-STTDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7098B96C4E4104A496EB6D14 /* Pods-STTDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STTDemoTests.release.xcconfig"; path = "Target Support Files/Pods-STTDemoTests/Pods-STTDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		75C4EC4576EA80F04201304A /* Pods_STTDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STTDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9952DA4429E92C580011CFF9 /* STTDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STTDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9952DA4729E92C580011CFF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9952DA4929E92C580011CFF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		9952DA6429E92C590011CFF9 /* STTDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STTDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9952DA6829E92C590011CFF9 /* STTDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STTDemoUITests.swift; sourceTree = "<group>"; };
 		9952DA6A29E92C590011CFF9 /* STTDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STTDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A07A0526FBF84331772951C2 /* Pods-STTDemo-STTDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STTDemo-STTDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-STTDemo-STTDemoUITests/Pods-STTDemo-STTDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BCEA86F9C12DD69ABCDE3E61 /* Pods-STTDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STTDemo.release.xcconfig"; path = "Target Support Files/Pods-STTDemo/Pods-STTDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C7E8B4970FF9A9706D520D8F /* Pods_STTDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STTDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDB617C505345D95E78FD968 /* Pods_STTDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4323C2B6815478E7679620D /* Pods_STTDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556A57661C826D289B88B09F /* Pods_STTDemo_STTDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8709678021E7DC7A5962429E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75C4EC4576EA80F04201304A /* Pods_STTDemo.framework */,
+				33B1EBA0FA81D10213F440DF /* Pods_STTDemo_STTDemoUITests.framework */,
+				C7E8B4970FF9A9706D520D8F /* Pods_STTDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9952DA3B29E92C580011CFF9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				9952DA5D29E92C590011CFF9 /* STTDemoTests */,
 				9952DA6729E92C590011CFF9 /* STTDemoUITests */,
 				9952DA4529E92C580011CFF9 /* Products */,
+				A1116180E4CD5ED0FC093410 /* Pods */,
+				8709678021E7DC7A5962429E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +154,19 @@
 			path = STTDemoUITests;
 			sourceTree = "<group>";
 		};
+		A1116180E4CD5ED0FC093410 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C18A43301ED0EE2D208AE63 /* Pods-STTDemo.debug.xcconfig */,
+				BCEA86F9C12DD69ABCDE3E61 /* Pods-STTDemo.release.xcconfig */,
+				6DDC7D57FB7078F2B5111E56 /* Pods-STTDemo-STTDemoUITests.debug.xcconfig */,
+				A07A0526FBF84331772951C2 /* Pods-STTDemo-STTDemoUITests.release.xcconfig */,
+				5D5D0FDA3FA3AC04C1C3D1F1 /* Pods-STTDemoTests.debug.xcconfig */,
+				7098B96C4E4104A496EB6D14 /* Pods-STTDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9952DA6E29E92C590011CFF9 /* Build configuration list for PBXNativeTarget "STTDemo" */;
 			buildPhases = (
+				86F753DA4A30051CFCC40A0D /* [CP] Check Pods Manifest.lock */,
 				9952DA4029E92C580011CFF9 /* Sources */,
 				9952DA4129E92C580011CFF9 /* Frameworks */,
 				9952DA4229E92C580011CFF9 /* Resources */,
+				781DD4A4D5DF72EFCE7E2C76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9952DA7129E92C590011CFF9 /* Build configuration list for PBXNativeTarget "STTDemoTests" */;
 			buildPhases = (
+				137DE52AC2A815F9549597EA /* [CP] Check Pods Manifest.lock */,
 				9952DA5629E92C590011CFF9 /* Sources */,
 				9952DA5729E92C590011CFF9 /* Frameworks */,
 				9952DA5829E92C590011CFF9 /* Resources */,
@@ -169,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9952DA7429E92C590011CFF9 /* Build configuration list for PBXNativeTarget "STTDemoUITests" */;
 			buildPhases = (
+				5BCF3189D79161B22EF561EE /* [CP] Check Pods Manifest.lock */,
 				9952DA6029E92C590011CFF9 /* Sources */,
 				9952DA6129E92C590011CFF9 /* Frameworks */,
 				9952DA6229E92C590011CFF9 /* Resources */,
+				C0219BECF1DACC9535B0F4FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,7 +252,7 @@
 				};
 			};
 			buildConfigurationList = 9952DA3F29E92C580011CFF9 /* Build configuration list for PBXProject "STTDemo" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -252,6 +297,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		137DE52AC2A815F9549597EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STTDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BCF3189D79161B22EF561EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STTDemo-STTDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		781DD4A4D5DF72EFCE7E2C76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-STTDemo/Pods-STTDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-STTDemo/Pods-STTDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-STTDemo/Pods-STTDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86F753DA4A30051CFCC40A0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STTDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0219BECF1DACC9535B0F4FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-STTDemo-STTDemoUITests/Pods-STTDemo-STTDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-STTDemo-STTDemoUITests/Pods-STTDemo-STTDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-STTDemo-STTDemoUITests/Pods-STTDemo-STTDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9952DA4029E92C580011CFF9 /* Sources */ = {
@@ -432,6 +580,7 @@
 		};
 		9952DA6F29E92C590011CFF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C18A43301ED0EE2D208AE63 /* Pods-STTDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,17 +589,19 @@
 				DEVELOPMENT_TEAM = 8Q47G7M4S9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = STTDemo/Info.plist;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "识别你的视频声音自动生成字幕";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = lebrand.github.io.STTDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lebrand.github.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -460,6 +611,7 @@
 		};
 		9952DA7029E92C590011CFF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCEA86F9C12DD69ABCDE3E61 /* Pods-STTDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,17 +620,19 @@
 				DEVELOPMENT_TEAM = 8Q47G7M4S9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = STTDemo/Info.plist;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "识别你的视频声音自动生成字幕";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = lebrand.github.io.STTDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lebrand.github.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,6 +642,7 @@
 		};
 		9952DA7229E92C590011CFF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D5D0FDA3FA3AC04C1C3D1F1 /* Pods-STTDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +663,7 @@
 		};
 		9952DA7329E92C590011CFF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7098B96C4E4104A496EB6D14 /* Pods-STTDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +684,7 @@
 		};
 		9952DA7529E92C590011CFF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DDC7D57FB7078F2B5111E56 /* Pods-STTDemo-STTDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +703,7 @@
 		};
 		9952DA7629E92C590011CFF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07A0526FBF84331772951C2 /* Pods-STTDemo-STTDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
