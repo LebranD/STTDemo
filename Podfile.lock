@@ -1,0 +1,20 @@
+PODS:
+  - Player (0.13.3)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - Player (~> 0.13.2)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Player
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Player: e1889a481f14b3bc4065b62bed304c3de3b47dfe
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: deb2d68009bd45b914f5cb36c7de6fc8c2824350
+
+COCOAPODS: 1.11.2
